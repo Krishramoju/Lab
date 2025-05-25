@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB URI from Atlas
-mongoose.connect("your_mongodb_uri_here", {
+mongoose.connect("mongodb+srv://Krish:<db_password>@cluster0.n3ic6fc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
